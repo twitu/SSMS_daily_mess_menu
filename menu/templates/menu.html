@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+{% load static %}
 <head>
     <meta charset="UTF-8">
     <title>SSMS BITS Pilani</title>
+    <style>
+        ul{
+        list-style-type: none;
+        }
+        body{
+        background-size: 1800px 900px;
+        background-repeat: no-repeat;
+        }
+    </style>
 </head>
-<body align="center">
+<body  style="text-align:center" background="{%static 'menu/images/food.jpg'%} ">
 <h1>Today's Menu</h1>
 <h2>{{date}}</h2>
 <h2>{{day}}</h2>
