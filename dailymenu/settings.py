@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'upload.apps.UploadConfig',
     'menu.apps.MenuConfig',
     'django.contrib.admin',
     'django.contrib.auth',
